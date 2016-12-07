@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="Clojure" ext="clj" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="yes" Keywords2="no" Keywords3="no" Keywords4="yes" Keywords5="yes" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00; 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1"></Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">:</Keywords>
+            <Keywords name="Keywords2">. def do fn if let letfn loop monitor-enter monitor-exit new quote recur set! throw try var</Keywords>
+            <Keywords name="Keywords3">* &quot;*&apos;&quot; + &quot;+&apos;&quot; - &quot;-&apos;&quot; -&gt;ArrayChunk -&gt;Cat -&gt;Eduction -&gt;Vec -&gt;VecNode -&gt;VecSeq / &lt; &lt;= = == &gt; &gt;= Throwable-&gt;map accessor aclone add-classpath add-watch agent agent-error agent-errors aget alength alias all-ns alter alter-meta! alter-var-root ancestors append! apply array-map aset aset-boolean aset-byte aset-char aset-double aset-float aset-int aset-long aset-short assoc assoc! assoc-in associative? atom await await-for bases bean bigdec bigint biginteger bit-and bit-and-not bit-clear bit-flip bit-not bit-or bit-set bit-shift-left bit-shift-right bit-test bit-xor boolean boolean-array booleans bound-fn* bound? browse-url butlast byte byte-array bytes cast cat char char-array char? chars class class? clear-agent-errors clojure-version coll-reduce coll? commute comp comparator compare compare-and-set! compile complement completing concat conj conj! cons constantly construct-proxy contains? count counted? create-struct cycle dec &quot;dec&apos;&quot; decimal? dedupe delay? deliver denominator deref derive descendants diff disj disj! dissoc dissoc! distinct distinct? doall dorun double double-array doubles drop drop-last drop-while eduction empty empty? ensure ensure-reduced enumeration-seq error-handler error-mode eval even? every-pred every? ex-data ex-info extend extenders extends? false? ffirst file-seq filter filterv find find-keyword find-ns find-var first flatten float float-array float? floats flush fn? fnext fnil fold foldcat folder force format frequencies future-call future-cancel future-cancelled? future-done? future? gensym get get-in get-method get-proxy-class get-thread-bindings get-validator group-by hash hash-map hash-ordered-coll hash-set hash-unordered-coll identical? identity ifn? in-ns inc &quot;inc&apos;&quot; init-proxy instance? inspect inspect-table inspect-tree int int-array integer? interleave intern internal-reduce interpose into into-array ints isa? iterate iterator-seq juxt keep keep-indexed key keys keyword keyword? kv-reduce last line-seq list list* list? load load-file load-reader load-string loaded-libs long long-array longs macroexpand macroexpand-1 make-array make-hierarchy map map-entry? map-indexed map? mapcat mapv max max-key memoize merge merge-with meta methods min min-key mix-collection-hash mod monoid name namespace namespace-munge neg? newline next nfirst nil? nnext not not-any? not-empty not-every? not= ns-aliases ns-imports ns-interns ns-map ns-name ns-publics ns-refers ns-resolve ns-unalias ns-unmap nth nthnext nthrest num number? numerator object-array odd? parents parse partial partition partition-all partition-by pcalls peek persistent! pmap pop pop! pop-thread-bindings pos? pr pr-str prefer-method prefers print print-str printf println println-str prn prn-str promise proxy-mappings push-thread-bindings quot rand rand-int rand-nth random-sample range ratio? rational? rationalize re-find re-groups re-matcher re-matches re-pattern re-seq read read-line read-string reader-conditional reader-conditional? realized? record? reduce reduce-kv reduced reduced? reducer reductions ref ref-history-count ref-max-history ref-min-history ref-set refer release-pending-sends rem remove remove-all-methods remove-method remove-ns remove-watch repeat repeatedly repl repl-read replace replicate require reset! reset-meta! resolve rest restart-agent resultset-seq reverse reversible? rseq rsubseq run! satisfies? second select-keys send send-off send-via seq seq? seque sequence sequential? set set-agent-send-executor! set-agent-send-off-executor! set-error-handler! set-error-mode! set-validator! set? short short-array shorts shuffle shutdown-agents slurp some some-fn some? sort sort-by sorted-map sorted-map-by sorted-set sorted-set-by sorted? special-symbol? spit split-at split-with start-server start-servers stop-server stop-servers str string? struct struct-map subs subseq subvec supers swap! symbol symbol? tagged-literal tagged-literal? take take-last take-nth take-while test the-ns thread-bound? to-array to-array-2d trampoline transduce transient tree-seq true? type unchecked-add unchecked-add-int unchecked-byte unchecked-char unchecked-dec unchecked-dec-int unchecked-divide-int unchecked-double unchecked-float unchecked-inc unchecked-inc-int unchecked-int unchecked-long unchecked-multiply unchecked-multiply-int unchecked-negate unchecked-negate-int unchecked-remainder-int unchecked-short unchecked-subtract unchecked-subtract-int underive unreduced unsigned-bit-shift-right update update-in update-proxy use val validated vals var-get var-set var? vary-meta vec vector vector-of vector? volatile! volatile? vreset! with-bindings* with-meta with-redefs-fn xml-seq zero? zipmap</Keywords>
+            <Keywords name="Keywords4">\</Keywords>
+            <Keywords name="Keywords5">&quot;&apos;&quot; `</Keywords>
+            <Keywords name="Keywords6">-&gt; -&gt;&gt; .. amap and areduce as-&gt; assert binding bound-fn case comment cond cond-&gt; cond-&gt;&gt; condp declare definline definterface defmacro defmethod defmulti defn defn- defonce defprotocol defrecord defstruct deftype delay doseq dosync dotimes doto extend-protocol extend-type for future gen-class gen-interface if-let if-not if-some import io! lazy-cat lazy-seq locking memfn ns or proxy proxy-super pvalues refer-clojure reify some-&gt; some-&gt;&gt; sync time vswap! when when-first when-let when-not when-some while with-bindings with-in-str with-local-vars with-open with-out-str with-precision with-redefs</Keywords>
+            <Keywords name="Keywords7">*1 *2 *3 *agent* *clojure-version* *command-line-args* *compile-files* *compile-path* *compiler-options* *data-readers* *default-data-reader-fn* *e *err* *file* *flush-on-newline* *in* *ns* *out* *print-dup* *print-length* *print-level* *print-meta* *print-readably* *read-eval* *unchecked-math* *warn-on-reflection* char-escape-string char-name-string default-data-readers nil parse-timestamp read-instant-calendar read-instant-date read-instant-timestamp true false</Keywords>
+            <Keywords name="Keywords8">&amp; # catch finally</Keywords>
+            <Keywords name="Delimiters">00&quot; 01 02&quot; 03( 04 05) 06[ 07 08] 09{ 10 11} 12#{ 13 14} 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="000000" bgColor="FFFFFF" fontName="Consolas" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="999988" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="00AEAE" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="990073" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="1440FB" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="008000" bgColor="FFFFFF" fontName="Consolas" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="2" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="CC55CA" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000040" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="00A67A" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="67370527" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="117702175" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="117702655" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="117702655" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="2" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
